@@ -21,7 +21,7 @@ def execute():
 
     #upsert in DataExtension
 
-    if grupoControle
+    if grupoControle is True:
         return { branchResult: "grupo-controle", j: journeyVersionId, s: subscriberKey }
-    else
+    else:
         return { branchResult: "audiencia", j: journeyVersionId, s: subscriberKey }
