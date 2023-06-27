@@ -22,6 +22,6 @@ def execute():
     #upsert in DataExtension
 
     if grupoControle is True:
-        return { "branchResult": "grupo-controle" }
+        return { "branchResult": "controle" }
     else:
-        return { "branchResult": "audiencia" }
+        return { "branchResult": "tratamento" }
