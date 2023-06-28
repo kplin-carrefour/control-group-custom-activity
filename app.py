@@ -7,8 +7,20 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello, World!'
 
+@app.post('/save')
+def save():
+    return ""
+
 @app.post('/publish')
 def publish():
+    return ""
+
+@app.post('/validate')
+def validate():
+    return ""
+
+@app.post('/stop')
+def stop():
     return ""
 
 @app.post('/execute')
