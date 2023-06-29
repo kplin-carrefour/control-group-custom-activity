@@ -25,9 +25,9 @@ def stop():
 
 @app.post('/execute')
 def execute():
-    root = request.json['root']
-    journeyVersionId = root['journeyId']
-    subscriberKey = root['keyValue']
+    #root = request.json['root']
+    #journeyVersionId = root['journeyId']
+    #subscriberKey = root['keyValue']
 
     grupoControle = secrets.randbelow(10) >= 9 #10%
 
